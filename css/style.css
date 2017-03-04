@@ -1,0 +1,341 @@
+@charset "UTF-8";
+/* <!-----###############################################################---->  */
+/* <!--------------------- for all devace  ---------------------------------->  */
+/* <!--------------------- -------------------------------------------------->  */
+/*-------------------------
+        varible color
+----------------------------*/
+/* <!--------------------- blog- html and body------------------------------->  */
+html, body {
+  height: 100%;
+  max-width: 100%;
+  overflow-x: hidden; }
+
+html {
+  font-size: 16px; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #222; }
+
+/* <!----------------------- main ----------------------------------->  */
+main {
+  padding: .7rem; }
+
+main.blog-home {
+  margin-top: 1rem; }
+
+/*-------- a link  --------------*/
+a {
+  color: #ff7519; }
+
+a:hover {
+  color: #f17720; }
+
+/* <!--------------------- blog-header------------------------------->  */
+.blog-header .containerMenu {
+  background-color: #4c9ed9; }
+
+/*--  logo   */
+.logo_img:focus {
+  outline: 0; }
+
+/* <!--------------------- blog-menu------------------------------->  */
+#menu-principale {
+  flex: 1 1 100%; }
+
+#menu-principale ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0 0; }
+
+#menu-principale ul a {
+  display: block;
+  padding: .8rem 0;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  border: 0; }
+
+#menu-principale ul a:hover,
+#menu-principale ul li.active a {
+  background-color: #ff7519;
+  color: #fff; }
+
+/*--  icon font menu and searcbar  */
+.blog-menu-searcbar {
+  background: #4c9ed9; }
+
+.button-cerca, .button-menu {
+  border: 0;
+  font-size: 2rem;
+  margin: 0;
+  padding: .3rem .8rem;
+  color: #ffffff;
+  background: transparent; }
+
+.button-cerca:focus, .button-menu:focus {
+  outline: 0; }
+
+/*--  input tab search tab-cercare  */
+#tab-cercare {
+  flex: 1 1 100%; }
+
+.content-tab-cercare {
+  display: flex;
+  height: 3rem; }
+
+.content-tab-cercare input[type="text"] {
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  padding: 1rem;
+  flex: 1 1 auto; }
+
+.content-tab-cercare input[type="submit"] {
+  flex: 1 1 0;
+  border: 0;
+  border-radius: 0 5px 5px 0;
+  color: #fff;
+  background: darkorange; }
+
+/* <!--------------------- article-listx------------------------------->  */
+.article-listx .conteent-p p {
+  margin-top: 1rem;
+  line-height: 1.6; }
+
+main .container-fluid {
+  padding: 0 !important;
+  margin: 0 !important; }
+
+h2 > a:hover, h3 > a:hover {
+  text-decoration: none; }
+
+/* <!--------------------- blog-vetrina------------------------------->  */
+.blog-vetrina .conteent-p p {
+  margin-top: 1rem;
+  line-height: 1.6; }
+
+.blog-vetrina .conteent-p h2 {
+  font-size: 1.6rem; }
+
+/*--  btn Button readMore vetrini  */
+.btn-success {
+  background-color: #ff751a;
+  border-color: #e15900;
+  padding-top: 0.875rem;
+  padding-right: 1.75rem;
+  padding-bottom: 0.9375rem;
+  padding-left: 1.75rem;
+  font-size: 0.8125rem;
+  margin-top: 1.5rem; }
+
+.btn-success a {
+  color: #fff;
+  text-decoration: none; }
+
+.btn-success:hover {
+  background-color: #d66a1f;
+  border-color: #e15900; }
+
+/* <!--------------------- article-listx article------------------------------->  */
+.article-listx header h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  padding-left: .7rem; }
+
+.article-listx header {
+  width: 100%; }
+
+span.comentario {
+  color: #ff7519; }
+
+span .posted-on {
+  text-transform: capitalize; }
+
+/* <!--------------------- blog-sidebar------------------------------->  */
+.blog-sidebar {
+  line-height: 1.4;
+  padding-left: .7rem; }
+
+.blog-sidebar .sideHr {
+  padding: 0 !important;
+  margin: 0 !important; }
+
+.blog-sidebar .h6 {
+  background: rgba(193, 193, 193, 0.36);
+  padding: .7rem;
+  font-weight: 600; }
+
+/*--  sidebar recentPost box  */
+.recentPost .sideimg {
+  padding-right: 0; }
+
+.recentPost a {
+  color: #ff751a;
+  line-height: 1.1;
+  font-size: 0.9rem; }
+
+.recentPost a:hover {
+  color: #ff7519;
+  text-decoration: none; }
+
+aside.blog-sidebar.xcate {
+  padding-top: 1rem; }
+
+/* <!--------------------- blog-pagination------------------------------->  */
+.blog-pagination {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  margin-top: 6rem; }
+
+.blog-pagination ul.pagination li:active a {
+  background: #ff8b3d;
+  color: #fff; }
+
+.blog-pagination .pagination {
+  margin: 0 auto;
+  width: 200px; }
+
+/* <!--------------------- blog-footer------------------------------->  */
+.blog-footer {
+  background-color: #4c9ed9;
+  border-top: 2px solid #ff8b3d;
+  margin: 0;
+  padding: 0;
+  line-height: 1.7; }
+
+.blog-footer-menu {
+  padding: 1.5rem .6rem; }
+
+.blog-footer p {
+  color: #fff;
+  padding: 1.6rem 0; }
+
+.suport {
+  background-color: #f0f0f0; }
+
+.blog-footer-menu .cantainer {
+  max-width: 1300px;
+  margin: 0 auto;
+  background-color: #f0f0f0; }
+
+/*--  footer menu list  */
+.footer-menu {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap; }
+
+.footer-menu a {
+  padding-right: 2rem; }
+
+.footer-menu a, .footer-social a {
+  text-decoration: none; }
+
+/*--  footer social media list  */
+.footer-social {
+  width: 319px;
+  float: right;
+  margin-right: 1rem; }
+
+.footer-social {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style: none; }
+
+/*--  footer Button scroll top  */
+.Tornasu {
+  position: fixed;
+  text-decoration: none;
+  color: #fff;
+  bottom: 1rem;
+  right: 1.6rem; }
+
+.Tornasu:hover {
+  text-decoration: none; }
+
+/* <!--------------------- -------------------------------------------------->  */
+/* <!----------------- medias query Medium md ÔëÑ768px  ----------------------->  */
+/* <!-------------------- dall 768 in su ------------------------------------>  */
+@media (min-width: 768px) {
+  /*   768 **/
+  /* <!--------------------- blog-menu------------------------------->  */
+  #menu-principale {
+    display: block; }
+
+  #menu-principale ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0 0 0 0; }
+
+  #menu-principale ul li a {
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 95%;
+    margin: 0 .3rem; }
+
+  .blog-menu-searcbar {
+    margin: 0 auto; }
+
+  #menu-principale {
+    order: 1; }
+
+  #tab-cercare {
+    width: 100%;
+    position: absolute;
+    margin: 0 0;
+    order: 2;
+    right: 0;
+    top: 30px;
+    z-index: 9999;
+    margin-bottom: 3rem; }
+
+  .button-cerca {
+    position: absolute;
+    right: -11px;
+    line-height: 3rem;
+    display: none; }
+
+  .content-tab-cercare {
+    height: 3rem; }
+
+  /* <!--------------------- blog-vetrina------------------------------->  */
+  .blog-vetrina .conteent-p {
+    padding: 0; }
+
+  /* <!--------------------- blog-sidebar------------------------------->  */
+  .recentPost .sidetx {
+    padding: 0 0 0 .33rem;
+    text-align: left;
+    font-size: small; } }
+/* <!---------* end  768 *----------->  */
+/* <!----------------- medias query->  Large ÔëÑ992px  lg ----------------------->  */
+@media (min-width: 992px) {
+  /*   992 **/
+  /* <!--------------------- article-listx------------------------------->  */
+  .article-listx .conteent-p {
+    padding: 0; } }
+/* end  992 **/
+/* <!----------------- medias query->  Extra large ÔëÑ1200px xl------------------------------------>  */
+@media (min-width: 1200px) {
+  /*   1200 **/
+  /* <!--------------------- blog-main,wrap width ------------------------------->  */
+  main, .wrap {
+    width: 1170px;
+    max-width: 100%;
+    margin: 0 auto; } }
+/* end  1200 **/
+/* <!-----###############################################################---->  */
+/* <!--------------------- for category page  ------------------------------->  */
+/* <!--------------------- -------------------------------------------------->  */
+/* <!------------------------main blog-category ---- ------------------------->  */
+.xcategx {
+  padding: 1rem .7rem;
+  text-transform: capitalize; }
+
+.xcategx small {
+  font-size: x-small; }
+
+/*# sourceMappingURL=style.css.map */
