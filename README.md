@@ -1,0 +1,2 @@
+# ThemeSolo
+Blog theme
